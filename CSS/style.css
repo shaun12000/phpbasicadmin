@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: none;
+    border: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+.full-wrapper{
+    width: 100%
+}
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+@font-face{
+	src:url(../fonts/Lato-Bold.ttf);
+	font-family:lb;
+}
+@font-face{
+	src:url(../fonts/Lato-Regular.ttf);
+	font-family:lr;
+}
+
+/*======================== Header Part CSS=========================*/
+.header-bg{
+    background: #02918c;
+}
+.logo img{
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 0px;
+}
+.logo{
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    line-height: 4.9;
+    display: inline-block;
+}
+.menu ul li a{
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    position: relative;
+}
+.menu ul li a:hover{
+    background: #ffffff;
+    color: #02918c;
+    transition: all linear .3s;
+}
+.menu ul li a:before{
+    position: absolute;
+    width: 0;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background: #cfc91d;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.menu ul li a:hover:before{
+    opacity: 1;
+    width: 100%;
+}
+
+/*======================== Banner part CSS ====================*/
+.banner{
+    text-align: center;
+}
+.banner-bg{
+    background: url(../images/banner.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner p{
+    padding-top: 211px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+.banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    letter-spacing: 28px;
+}
+.banner h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 18px;
+    padding-bottom: 50px;
+}
+.banner img{
+    width: 115px;
+    height: 25px;
+    margin-bottom: 52px;
+}
+.button{
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background: #cfc91d;
+    margin-bottom: 210px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    border: 0px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #02918c;
+    color: #ffffff;
+    transition: all linear .3s;
+}
+
+
+/*======================= About Part CSS =========================*/
+.about{
+    text-align: center;
+}
+.about h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900px;
+    font-size: 46px;
+    color: #02918c;
+    padding-top: 98px;
+}
+.about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 2;
+    padding: 0px 120px;
+}
+.style{
+    padding-top: 33px;
+    padding-bottom: 36px;
+}
+.about span{
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;  
+}
+
+/*======================== MyWork Part CSS =======================*/
+.mywork{
+    padding-top: 84px;
+    margin-bottom: 98px;
+}
+.mywork-item{
+    text-align: center;
+    width: 175px;
+    float: left;
+    padding: 0px 54px;
+    border-right: solid 1px #d9dbdb;
+}
+.title{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #7e8287;
+    padding-bottom: 19px;
+}
+.mywork-item p{
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    color: #7e8287;
+    padding-bottom: 54px;
+}
+.mywork-item i{
+    font-size: 30px;
+    color: #0b9590;
+    padding-bottom: 29px;
+}
+
+/*==================== Service Part CSS ======================*/
+.right{
+    width: 570px;
+}
+.left{
+    width: 570px;
+}
+.service-bg{
+    background: url(../images/service.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item {
+    width:50%;
+    float: left;
+}
+.item i{
+    font-size: 30px;
+    color: #0b9590;
+    padding-left: 60px;
+    padding-bottom: 17px;
+    padding-top: 20px;
+}
+.item h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #7e8287;
+    padding-left: 60px;
+    padding-bottom: 19px;
+}
+.item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: #7e8287;
+    padding-right: 75px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    line-height: 2;
+}
+.text h6{
+    color: #02918c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.style02{
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #9fa1a2;
+}
+.text p{
+    padding-left: 60px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #9fa1a2;
+}
+
+/*=================== Activity part CSS =====================*/
+.activity{
+    text-align: center;
+}
+.activity-text h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    color: #02918c;
+    padding-top: 100px;
+    padding-bottom: 18px;
+}
+.style03{
+    color: #a6a9ac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.activity-text p{
+    color: #a6a9ac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0px 222px;
+    padding-bottom: 11px;
+    line-height: 2;
+}
+.activity-text h5{
+    color: #a6a9ac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 222px;
+    padding-bottom: 75px;
+    line-height: 2;
+}
+.gallery-item {
+    float: left;
+    position: relative;
+    height: 201px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(19, 134, 129, 0.8); 
+    cursor: pointer;
+    transition: all linear .3s;
+    transform: scale(0);
+}
+.gallery-item:hover .overlay{
+    transform: scale(0.8);
+}
+.gallery-item img{
+    width: 285px;
+    height: 201px;
+}
+.overlay-item h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffffff;
+    padding-top: 35px;
+}
+.overlay-item p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 2;
+    padding-right: 20px;
+    padding-bottom: 56px;
+    padding-left: 20px;
+}
+
+/*====================== Contact Part CSS =========================*/
+.contact{
+    text-align: center;
+}
+.contact h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    color: #02918c;
+    padding-top: 100px;
+    padding-bottom: 18px;
+}
+.style04{
+    color: #a6a9ac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.contact p{
+    color: #a6a9ac;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0px 222px;
+    padding-bottom: 11px;
+    line-height: 2;
+}
+
+/*============================ Form Part CSS =========================*/
+.form-bg{
+    text-align: center;
+    background: #000000;
+    margin-top: 74px;
+}
+.form {
+    width: 636px;
+    margin: 0 auto;
+}
+.form input{
+    width: 630px;
+    padding-top: 55px;
+    padding-bottom: 18px;
+    background: transparent;
+    color: #676a6e;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #676a6e;
+    text-align: center;
+}
+.form textarea{
+    width: 630px;
+    margin-left: -138px;
+    padding-top: 40px;
+    padding-bottom: 2px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background: transparent;
+    color: #676a6e;
+    resize: none;
+    font-family: lr;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #676a6e;
+    text-align: center;
+}
+.form button {
+    width: 196px;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 67px;
+    background: #cfc91d;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    border: 0px;
+    letter-spacing: 12px;
+}
+.form button:hover{
+    background: #02918c;
+    color: #fff;
+    transition: all linear .3s;
+}
+.form p{
+    color: #676a6e;
+    font-size: 12px;
+    font-family: lr;
+    padding-bottom: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
